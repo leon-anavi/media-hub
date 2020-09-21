@@ -13,10 +13,11 @@
 
 	<!-- Additional layers -->
 	<project path="meta-kodi" name="leon-anavi/meta-kodi" revision="master-dunfell" />
-	<project path="meta-kodi-raspberrypi" name="leon-anavi/meta-kodi-raspberrypi" revision="master" />
-	<project path="meta-kodi-distro" name="leon-anavi/meta-kodi-distro" revision="master" />
-
+	<project path="meta-kodi-community" name="leon-anavi/meta-kodi-community" revision="master" />
+	
 	<!-- BSP layers -->
 	<project name="meta-raspberrypi" remote="yocto" revision="dunfell" />
+	<project path="meta-freescale" name="Freescale/meta-freescale" revision="dunfell" />
+	<project path="meta-freescale-3rdparty" name="Freescale/meta-freescale-3rdparty" revision="dunfell" />
 
 </manifest>
