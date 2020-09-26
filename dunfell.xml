@@ -19,5 +19,6 @@
 	<project name="meta-raspberrypi" remote="yocto" revision="dunfell" />
 	<project path="meta-freescale" name="Freescale/meta-freescale" revision="dunfell" />
 	<project path="meta-freescale-3rdparty" name="Freescale/meta-freescale-3rdparty" revision="dunfell" />
+	<project path="meta-meson" name="leon-anavi/meta-meson" revision="dunfell-kodi" />
 
 </manifest>
